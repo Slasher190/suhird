@@ -1,0 +1,46 @@
+{
+  "_comment": "Merge this into ~/.openclaw/openclaw.json to integrate Suhird with OpenClaw",
+
+  "channels": {
+    "whatsapp": {
+      "dmPolicy": "open"
+    }
+  },
+
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "suhird-bot": {
+        "baseUrl": "http://localhost:8000/v1",
+        "apiKey": "suhird_api_token_change_me",
+        "api": "openai-responses",
+        "models": [
+          {
+            "id": "matchmaker",
+            "name": "Suhird Matchmaker",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 4096,
+            "maxTokens": 4096
+          }
+        ]
+      }
+    }
+  },
+
+  "agents": {
+    "list": [
+      {
+        "id": "suhird-matchmaker",
+        "model": "suhird-bot/matchmaker",
+        "description": "Suhird matchmaker for unknown WhatsApp numbers"
+      }
+    ]
+  }
+}
