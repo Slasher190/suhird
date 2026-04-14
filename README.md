@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="Suhird Logo" width="600"/>
+  <img src="assets/logo.png" alt="Suhird Logo" width="600"/>
 </p>
 
 <p align="center">
