@@ -1,8 +1,22 @@
-# Suhird (सुहृद्)
+<p align="center">
+  <img src="assets/logo.svg" alt="Suhird Logo" width="600"/>
+</p>
 
-**A WhatsApp-based matchmaking platform** — Sanskrit for "good-hearted friend".
+<p align="center">
+  <strong>A WhatsApp-based matchmaking platform</strong> — Sanskrit for "good-hearted friend".<br/>
+  Open source, AI-powered, designed for 1-2K user scale.
+</p>
 
-Open source, AI-powered, designed for 1-2K user scale. Integrates with [OpenClaw](https://github.com/openclaw/openclaw) as the WhatsApp gateway.
+<p align="center">
+  <a href="#quick-start">Quick Start</a> &middot;
+  <a href="#how-it-works">How It Works</a> &middot;
+  <a href="#api-reference">API Reference</a> &middot;
+  <a href="#project-structure">Structure</a>
+</p>
+
+---
+
+Integrates with [OpenClaw](https://github.com/openclaw/openclaw) as the WhatsApp gateway.
 
 ## Architecture
 
